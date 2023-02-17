@@ -54,10 +54,3 @@ $("#sort").on("change", function (e) {
   });
   $("#sort").val("");
 });
-
-let names = ["az", "xc", "gb"];
-names.sort((a, b) => {
-  if (a > b) return 1;
-  if (a < b) return -1;
-});
-console.log(names);
